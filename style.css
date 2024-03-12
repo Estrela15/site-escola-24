@@ -13,11 +13,22 @@
 }
 
 .cabecalho-imagem{
-   width: 10%;
+   width: 15%;
 }
 
 .cabecalho-lista-item{
    display: inline-block;
    margin: 0 16px;
    font-size: 40px;
+}
+.memes-imagem{
+   width: 25%;
+}
+.memes{
+   background-image:linear-gradient(#072d6b,#97bbf6);
+   color: black;
+   display: flex;
+}
+.memes-div-conteudo{
+   width: 75%;
 }
