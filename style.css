@@ -2,8 +2,12 @@
    margin: 0;
    padding: 0;
 }
-
-.cabecalho {
+   body{
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .cabecalho {
    background-color: #072d6b;
    color: white;
    display: flex;
@@ -28,7 +32,16 @@
    background-image:linear-gradient(#072d6b,#97bbf6);
    color: black;
    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 24px 0;
 }
 .memes-div-conteudo{
    width: 75%;
+}
+.memes-titulo{
+   padding: 24px 0;
+}
+.meme-imagem{
+   width: 120px;
 }
